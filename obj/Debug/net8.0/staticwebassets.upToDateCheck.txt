@@ -1,5 +1,6 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\abc.jpg
 wwwroot\images\avatar_g.jpg
 wwwroot\images\bridge.jpg
 wwwroot\images\gondol.jpg
