@@ -13,7 +13,15 @@
 
         <div class="w3-container">
             <p>
-                @item.Content
+                @if(item.Content.Length<50)
+                {
+                    @item.Content
+                }
+                else
+                {
+                    @(item.Content.Substring(0,50)+"...")
+                } 
+                
             </p>
             <div class="w3-row">
                 <div class="w3-col m8 s12">

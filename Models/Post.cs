@@ -1,4 +1,6 @@
-﻿namespace Blog_Site.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Blog_Site.Models
 {
     public class Post
     {
