@@ -20,6 +20,7 @@ namespace Blog_Site.Controllers
             return View(myPost);
         }
 
+        [Route("Home/Post/{slug}")] 
         public IActionResult Post(string slug)
         {
             
