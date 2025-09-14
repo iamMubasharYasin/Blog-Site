@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Blog-Site\\Blog-Site\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{11713B57-17FA-492D-A6D8-5839871516FB}|Blog-Site.csproj|d:\\blog-site\\blog-site\\controllers\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11713B57-17FA-492D-A6D8-5839871516FB}|Blog-Site.csproj|solutionrelative:controllers\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{11713B57-17FA-492D-A6D8-5839871516FB}|Blog-Site.csproj|d:\\blog-site\\blog-site\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{11713B57-17FA-492D-A6D8-5839871516FB}|Blog-Site.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -14,19 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Blog-Site\\Blog-Site\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\Blog-Site\\Blog-Site\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAQwBQAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAUwBwAAACTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-13T18:23:35.025Z",
+              "WhenOpened": "2025-09-14T06:37:48.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.cs",
+              "DocumentMoniker": "D:\\Blog-Site\\Blog-Site\\Controllers\\Home.cs",
+              "RelativeDocumentMoniker": "Controllers\\Home.cs",
+              "ToolTip": "D:\\Blog-Site\\Blog-Site\\Controllers\\Home.cs",
+              "RelativeToolTip": "Controllers\\Home.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAywBgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T06:21:41.2Z",
               "EditorCaption": ""
             }
           ]

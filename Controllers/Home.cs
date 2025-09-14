@@ -20,9 +20,11 @@ namespace Blog_Site.Controllers
             return View(myPost);
         }
 
-        public IActionResult Post()
+        public IActionResult Post(string slug)
         {
-            return View();
+            
+            var DetailedPost = db.tbl_Post.Where(x => x.slug == slug).FirstOrDefault(); 
+            return View(DetailedPost);
         }
     }
 }

@@ -13,19 +13,21 @@
 
         <div class="w3-container">
             <p>
-                @if(item.Content.Length<50)
+                @if(item.Content.Length<100)
                 {
                     @item.Content
                 }
                 else
                 {
-                    @(item.Content.Substring(0,50)+"...")
+                    @(item.Content.Substring(0,100)+"...")
                 } 
                 
             </p>
             <div class="w3-row">
                 <div class="w3-col m8 s12">
-                    <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+                    <p>
+                        <a class="w3-button w3-padding-large w3-white w3-border" asp-controller="Home" asp-action="Post" asp-route-slug="@item.slug" ><b>READ MORE »</b></a>
+                        </p>
                 </div>
                 <div class="w3-col m4 w3-hide-small">
                     <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-badge">2</span></span></p>
