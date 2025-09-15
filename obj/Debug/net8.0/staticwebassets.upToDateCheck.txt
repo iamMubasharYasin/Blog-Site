@@ -4,10 +4,11 @@ wwwroot\images\abc.jpg
 wwwroot\images\avatar_g.jpg
 wwwroot\images\bridge.jpg
 wwwroot\images\gondol.jpg
-wwwroot\images\rock.jpg
+wwwroot\images\ijk.jpg
+wwwroot\images\mubashar.jpg
 wwwroot\images\skies.jpg
-wwwroot\images\woods.jpg
 wwwroot\images\workshop.jpg
+wwwroot\images\xyz.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
