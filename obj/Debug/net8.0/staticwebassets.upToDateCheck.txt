@@ -5,7 +5,7 @@ wwwroot\images\avatar_g.jpg
 wwwroot\images\bridge.jpg
 wwwroot\images\gondol.jpg
 wwwroot\images\ijk.jpg
-wwwroot\images\mubashar.jpg
+wwwroot\images\mubashar2.jpg
 wwwroot\images\skies.jpg
 wwwroot\images\workshop.jpg
 wwwroot\images\xyz.jpg
