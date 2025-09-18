@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\Blog-Site\\Blog-Site\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{11713B57-17FA-492D-A6D8-5839871516FB}|Blog-Site.csproj|d:\\blog-site\\blog-site\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{11713B57-17FA-492D-A6D8-5839871516FB}|Blog-Site.csproj|solutionrelative:views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{11713B57-17FA-492D-A6D8-5839871516FB}|Blog-Site.csproj|d:\\blog-site\\blog-site\\views\\admin\\addpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{11713B57-17FA-492D-A6D8-5839871516FB}|Blog-Site.csproj|solutionrelative:views\\admin\\addpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11713B57-17FA-492D-A6D8-5839871516FB}|Blog-Site.csproj|d:\\blog-site\\blog-site\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11713B57-17FA-492D-A6D8-5839871516FB}|Blog-Site.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_AdminLayout.cshtml",
-              "DocumentMoniker": "D:\\Blog-Site\\Blog-Site\\Views\\Shared\\_AdminLayout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_AdminLayout.cshtml",
-              "ToolTip": "D:\\Blog-Site\\Blog-Site\\Views\\Shared\\_AdminLayout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_AdminLayout.cshtml",
-              "ViewState": "AgIAAIYAAAAAAAAAAAAAAJMAAAAyAAAAAAAAAA==",
+              "Title": "AddPost.cshtml",
+              "DocumentMoniker": "D:\\Blog-Site\\Blog-Site\\Views\\Admin\\AddPost.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\AddPost.cshtml",
+              "ToolTip": "D:\\Blog-Site\\Blog-Site\\Views\\Admin\\AddPost.cshtml",
+              "RelativeToolTip": "Views\\Admin\\AddPost.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAACMAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-17T14:07:49.234Z",
+              "WhenOpened": "2025-09-18T18:27:38.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\Blog-Site\\Blog-Site\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "D:\\Blog-Site\\Blog-Site\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwBgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T18:20:54.997Z",
               "EditorCaption": ""
             }
           ]

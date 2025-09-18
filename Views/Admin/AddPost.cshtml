@@ -1,0 +1,45 @@
+﻿@using Blog_Site.Models
+@model Post
+
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <form method="post" asp-action="AddPost" asp-controller="Admin">
+                <div class="form-group">
+                    <label class="form-label" asp-for="Title">Title</label>
+                    <input class="form-control" asp-for="Title" />
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" asp-for="SubTitle">SubTitle</label>
+                    <input class="form-control" asp-for="SubTitle" />
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" asp-for="Date">Date</label>
+                    <input class="form-control" asp-for="Date" />
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" asp-for="Images">Images</label>
+                    <input class="form-control" asp-for="Images" />
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" asp-for="slug">slug</label>
+                    <input class="form-control" asp-for="slug" />
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" asp-for="Content">Content</label>
+                    <input class="form-control" asp-for="Content" />
+                </div>
+
+                <button type="submit" class="btn btn-primary mt-3">Add Post</button>
+
+            </form>
+        </div>
+
+    </div>
+</div>
