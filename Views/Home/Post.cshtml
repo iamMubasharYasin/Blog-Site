@@ -1,4 +1,5 @@
 ﻿@using Blog_Site.Models
+@using System.Web;
 @model Post
 <!-- Blog entry Start -->
 <div class="w3-card-4 w3-margin w3-white">
@@ -12,7 +13,8 @@
     <hr>
     <div class="w3-container">
         <p>
-            @Model.Content
+            
+            @Html.Raw(HttpUtility.HtmlDecode(Model.Content))
         </p>
     </div>
 </div>
