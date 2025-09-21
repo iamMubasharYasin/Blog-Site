@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Blog-Site\\Blog-Site\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{11713B57-17FA-492D-A6D8-5839871516FB}|Blog-Site.csproj|d:\\blog-site\\blog-site\\views\\admin\\allposts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{11713B57-17FA-492D-A6D8-5839871516FB}|Blog-Site.csproj|solutionrelative:views\\admin\\allposts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11713B57-17FA-492D-A6D8-5839871516FB}|Blog-Site.csproj|d:\\blog-site\\blog-site\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11713B57-17FA-492D-A6D8-5839871516FB}|Blog-Site.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AllPosts.cshtml",
+              "DocumentMoniker": "D:\\Blog-Site\\Blog-Site\\Views\\Admin\\AllPosts.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\AllPosts.cshtml",
+              "ToolTip": "D:\\Blog-Site\\Blog-Site\\Views\\Admin\\AllPosts.cshtml",
+              "RelativeToolTip": "Views\\Admin\\AllPosts.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-21T06:17:07.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\Blog-Site\\Blog-Site\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "D:\\Blog-Site\\Blog-Site\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwCMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T06:15:56.18Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

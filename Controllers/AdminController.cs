@@ -29,5 +29,11 @@ namespace Blog_Site.Controllers
             Db.SaveChanges();
             return View();
         }
+
+        public IActionResult AllPosts()
+        {
+            var myAllPosts = Db.tbl_Post.ToList();
+            return View(myAllPosts);
+        }
     }
 }
