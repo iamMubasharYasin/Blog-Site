@@ -35,5 +35,16 @@ namespace Blog_Site.Controllers
             var myAllPosts = Db.tbl_Post.ToList();
             return View(myAllPosts);
         }
+
+        public IActionResult DeletePost(int Id)
+        {
+            var PosttoDelete = Db.tbl_Post.Find(Id);
+            if(PosttoDelete!=null)
+            {
+                Db.Remove(PosttoDelete);
+                Db.SaveChanges();
+            }
+            return RedirectToAction("AllPosts", "Admin");
+        }
     }
 }
