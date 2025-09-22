@@ -46,5 +46,20 @@ namespace Blog_Site.Controllers
             }
             return RedirectToAction("AllPosts", "Admin");
         }
+
+        public IActionResult UpdatePost(int Id)
+        {
+            var PostToUpdate = Db.tbl_Post.Find(Id);
+            return View(PostToUpdate);
+        }
+
+        [HttpPost]
+        public IActionResult UpdatePost(Post post)
+        {
+           Db.tbl_Post.Update(post);
+            Db.SaveChanges();
+            return RedirectToAction("AllPosts", "Admin");
+
+        }
     }
 }

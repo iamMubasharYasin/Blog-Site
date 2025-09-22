@@ -1,0 +1,64 @@
+﻿@using Blog_Site.Models
+@model Post
+
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <form method="post" asp-action="UpdatePost" asp-controller="Admin">
+
+                <div class="form-group">
+                    <label class="form-label" asp-for="Id">Id</label>
+                    <input class="form-control" asp-for="Id" />
+                </div>
+
+                <div class="row justify-content-center">
+                <div class="col-md-6">
+                <div class="form-group">
+                    <label class="form-label" asp-for="Title">Title</label>
+                    <input class="form-control" asp-for="Title" />
+                </div>
+                </div>
+
+               <div class="col-md-6">
+                <div class="form-group">
+                    <label class="form-label" asp-for="SubTitle">SubTitle</label>
+                    <input class="form-control" asp-for="SubTitle" />
+                </div>
+                </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label class="form-label" asp-for="slug">Slug</label>
+                            <input class="form-control" asp-for="slug"/>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label class="form-label" asp-for="Date">Date</label>
+                            <input class="form-control" asp-for="Date" />
+                        </div>
+                    </div>
+                </div>
+               
+
+                <div class="form-group">
+                    <label class="form-label" asp-for="Images">Images</label>
+                    <input class="form-control" asp-for="Images" />
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" asp-for="Content">Content</label>
+                    <textarea class="form-control" id="tiny" asp-for="Content"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary mt-3"> Update Post </button>
+            </form>
+
+        </div>
+
+    </div>
+</div>
+
